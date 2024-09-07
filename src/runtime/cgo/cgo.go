@@ -15,7 +15,7 @@ package cgo
 #cgo darwin,arm64 LDFLAGS: -framework CoreFoundation
 #cgo dragonfly LDFLAGS: -lpthread
 #cgo freebsd LDFLAGS: -lpthread
-#cgo android LDFLAGS: -llog
+//#cgo android LDFLAGS: -llog
 #cgo !android,linux LDFLAGS: -lpthread
 #cgo netbsd LDFLAGS: -lpthread
 #cgo openbsd LDFLAGS: -lpthread
